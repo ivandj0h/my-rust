@@ -16,12 +16,20 @@ fn main() {
     //}
 
     // Loop Statement
+    //let mut count = 0;
+    //loop {
+    //  count += 1;
+    //  if count == 10 {
+    //      break;
+    //  }
+    //  println!("Count: {}", count);
+    //}
+
+    // While loop
     let mut count = 0;
-    loop {
-        count += 1;
-        if count == 10 {
-            break;
-        }
+
+    while count <= 10 {
         println!("Count: {}", count);
+        count += 1;
     }
 }
