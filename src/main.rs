@@ -11,7 +11,17 @@ fn main() {
     //}
 
     // For loop
-    for n in 1..100 {
-        print!("{} ", n);
+    //for n in 1..100 {
+    //  print!("{} ", n);
+    //}
+
+    // Loop Statement
+    let mut count = 0;
+    loop {
+        count += 1;
+        if count == 10 {
+            break;
+        }
+        println!("Count: {}", count);
     }
 }
